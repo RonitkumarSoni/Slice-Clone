@@ -1,0 +1,324 @@
+/* Laptop Screen (992px - 1199px) */
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+        padding-inline: 20px;
+    }
+
+    .big-green-text {
+        font-size: 10rem;
+        line-height: 120px;
+    }
+    
+    /* Inside @media screen and (max-width: 767px) */
+    .white-button {
+        width: 33%; 
+        margin: 30px auto 0; 
+        padding: 8px 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px; 
+        font-size: 0.85rem; 
+        white-space: nowrap; 
+    }
+    
+    .white-button p {
+        font-size: 0.85rem;
+        margin: 0;
+    }
+
+    .bold {
+        font-size: 0.9rem; 
+    }
+
+    .white-button .primary-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        width: auto; 
+        min-width: 80px;
+    }
+
+    .rotating-key img { width: 12%; }
+    .branch img { width: 16%; }
+    .silver-card2 img { width: 5%; }
+
+    .footer-container {
+        grid-template-columns: 1.2fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+ /* Tablet Screen (768px - 991px) */
+@media screen and (max-width: 991px) {
+    .main {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .hemburger {
+        margin-right: 0;
+    }
+
+    .big-green-text {
+        font-size: 8rem;
+        line-height: 1.1;
+    }
+    
+    .white-text h1 {
+        font-size: 1.2rem;
+    }
+    
+    .white-button {
+        width: 37%;
+        font-size: 1rem;
+    }
+
+    .support-card {
+        flex-direction: column;
+        padding: 60px 40px;
+        text-align: center;
+    }
+
+    .support-text-content {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .features-grid {
+        justify-content: center;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding-bottom: 150px;
+    }
+
+    .heading-pink, .heading-black, .heading-pink-text {
+        font-size: 3rem;
+    }
+    
+    .text-container h1 {
+        font-size: 2.5rem;
+    }
+    
+    .animation-button {
+        width: 40vw;
+        font-size: 1.5rem;
+    }
+}
+
+ /* Mobile Screen (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .main {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .company-logo img {
+        width: 60px;
+    }
+
+    .nav-links ul li:first-child {
+        display: none; 
+    }
+
+    .hemburger {
+        margin-right: 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .hero {
+        min-height: 100vh; 
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .decoration {
+        margin-top: 20px;
+    }
+
+    .big-green-text {
+        font-size: 15vw;
+        line-height: 1.1;
+    }
+
+    .white-text {
+        margin-top: 20px;
+    }
+
+    .white-text h1 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .white-button {
+        width: 41%;
+        margin-top: 40px;
+        font-size: 1rem;
+    }
+
+    .rotating-key img { width: 25%; top: 80%; left: 5%; opacity: 0.8; }
+    .branch img { width: 30%; top: 15%; opacity: 0.6; }
+    .silver-card2 img { width: 12%; right: 5%; top: 65%; }
+    .silver-card1 img { display: none; }
+
+    .rbi-repo-section, 
+    .Banking-Section, 
+    .Earning-Interest-section, 
+    .fixed-deposite-section,
+    .saving-section,
+    .high-interest-Section {
+        height: auto;
+        min-height: 80vh;
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rate-text, 
+    .banking-text, 
+    .Earning-interset-text,
+    .saving-font,
+    .interest-font,
+    .text-container {
+        position: relative;
+        top: auto; left: auto; right: auto; bottom: auto;
+        transform: none;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .heading-pink, .heading-black { font-size: 2.5rem; }
+    .banking-text p, .saving-font p, .interest-font p { font-size: 1.2rem; text-align: center; }
+
+    .slider-container {
+        padding: 0 20px;
+        gap: 20px;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .card {
+        min-width: 85vw;
+        height: 60vh;
+    }
+
+    .support-section { padding: 10px; min-height: auto; }
+    .support-card { padding: 40px 20px; border-radius: 30px; }
+    .support-heading { font-size: 2.5rem; margin-bottom: 30px; }
+    .features-grid { flex-direction: column; gap: 30px; }
+    .feature-item { align-items: center; text-align: center; }
+    .support-image-container {
+        position: relative; width: 100%; height: 300px;
+        margin-top: 40px; border-radius: 30px;
+    }
+    .floating-img { transform: scale(1) translateY(0); animation: none; }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px 100px; 
+    }
+
+    .col-address {
+        order: 3; 
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .col-connect {
+        order: 1; 
+        margin-bottom: 20px;
+    }
+
+    .col-connect .footer-title {
+        display: none; 
+    }
+
+    .social-icons {
+        justify-content: flex-start; 
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .social-icons a svg {
+        width: 24px; height: 24px; 
+    }
+
+    .footer-col:not(.col-address):not(.col-connect) {
+        order: 2;
+        width: 45%; 
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+    
+    .footer-container {
+        display: block; 
+    }
+    
+    .footer-col {
+        margin-bottom: 20px;
+    }
+
+    .footer-col:nth-child(2), 
+    .footer-col:nth-child(3) { 
+        float: left;
+        width: 50%;
+    }
+    
+    .footer-container::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col-address, .col-connect {
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+
+    .footer-title {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    
+    .footer-links-list li {
+        margin-bottom: 10px;
+    }
+
+    .footer-copyright, .badges {
+        display: none;
+    }
+
+    .download-sticky-btn {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        background: #1a1a1a;
+        color: white;
+        padding: 15px;
+        border-radius: 50px;
+        text-align: center;
+        font-weight: bold;
+        z-index: 100;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+}
