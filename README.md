@@ -6,7 +6,7 @@ This project focuses on **pixel-perfect UI recreation**, smooth layouts, and cle
 ---
 
 ## 📸 Preview
-![Slice Clone Preview](./Slice-Clone/preview-screenshots/preview.png)
+![Slice Clone Preview](./preview-screenshots/preview.png)
 
 > *Note:* Replace the image path with your actual preview image.
 
